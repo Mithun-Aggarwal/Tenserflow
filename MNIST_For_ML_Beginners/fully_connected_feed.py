@@ -39,6 +39,9 @@ import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 from tensorflow.examples.tutorials.mnist import mnist
 
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
+
 # Basic model parameters as external flags.
 FLAGS = None
 
